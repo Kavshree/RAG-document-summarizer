@@ -98,7 +98,7 @@ const index = pc.index("mypineconeindex");
     }   
 
     //3 - Query vector database store and query LLM for answer
-    let question = "what are the skills of kavyashree?";
+    let question = "Where all did the puppy travel to?";
     const queryEmbedding = await new OpenAIEmbeddings().embedQuery(question);
 
     /**Response structure:
